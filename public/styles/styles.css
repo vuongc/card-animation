@@ -1,0 +1,31 @@
+.card {
+
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 500px;
+    border: 1px solid #f0f3f3;
+    background-color: #f0f3f3;
+    margin: 20px auto;
+}
+
+.card:hover .cool-footer {
+
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+}
+
+.cool-footer {
+
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    bottom: -50px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    -webkit-transition: all .5s linear;
+       -moz-transition: all .5s linear;
+         -o-transition: all .5s linear;
+            transition: all .5s linear;
+}
